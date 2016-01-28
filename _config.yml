@@ -5,13 +5,19 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# Build settings
+markdown: kramdown
+
+# Permalinks
+permalink: pretty
+
+# Server
+exclude: ['HVPA-training-site.sublime-project','HVPA-training-site.sublime-workspace','Gemfile','Gemfile.lock','assets']
+encoding: UTF-8
+timezone: Etc/UTC
+
 # Site settings
 title: HVP Australia Portal Training
 description:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
-markdown: kramdown
+baseurl: "/Documentation" # the subpath of your site, e.g. /blog
+url: "http://portal.hvpaustralia.org.au" # the base hostname & protocol for your site
